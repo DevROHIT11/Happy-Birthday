@@ -14,7 +14,7 @@ function App() {
   };
 
   return (
-    <Router>
+    <>
       {show ? (
         <>
           {" "}
@@ -36,7 +36,7 @@ function App() {
       )}
 
       <footer>  © Copyright 2025 Rohit Bhalekar .  All rights reserved.</footer>
-    </Router>
+    </>
   );
 }
 
