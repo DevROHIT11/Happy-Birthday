@@ -1,3 +1,5 @@
+import { HashRouter as Router } from 'react-router-dom';
+
 import Birthday from "../components/Birthday";
 import Home from "../components/Home";
 import "./App.css";
@@ -13,7 +15,7 @@ function App() {
   };
 
   return (
-    <>
+    <Router>
       {show ? (
         <>
           {" "}
@@ -35,7 +37,7 @@ function App() {
       )}
 
       <footer>  © Copyright 2025 Rohit Bhalekar .  All rights reserved.</footer>
-    </>
+    </Router>
   );
 }
 
