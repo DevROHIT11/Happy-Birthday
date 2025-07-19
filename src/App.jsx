@@ -1,4 +1,3 @@
-import { HashRouter as Router } from 'react-router-dom';
 
 import Birthday from "../components/Birthday";
 import Home from "../components/Home";
